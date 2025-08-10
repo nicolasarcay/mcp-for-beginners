@@ -7,6 +7,7 @@ CO_OP_TRANSLATOR_METADATA:
   "language_code": "es"
 }
 -->
+
 # Ejecutando este ejemplo
 
 Se recomienda instalar `uv` pero no es obligatorio, consulta las [instrucciones](https://docs.astral.sh/uv/#highlights)
@@ -82,7 +83,7 @@ Esto listará todas las herramientas disponibles en el servidor. Deberías ver l
 Para invocar una herramienta escribe:
 
 ```bash
-nnpx @modelcontextprotocol/inspector --cli node ./build/index.js --method tools/call --tool-name add --tool-arg a=1 --tool-arg b=2
+npx @modelcontextprotocol/inspector --cli node ./build/index.js --method tools/call --tool-name add --tool-arg a=1 --tool-arg b=2
 ```
 
 Deberías ver la siguiente salida:
